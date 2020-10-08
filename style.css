@@ -1,0 +1,458 @@
+body {font-family: Arial;}
+
+/* Style the tab */
+.tab {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+tr.google-visualization-table-tr-head {
+  background-color: rgb(162, 47, 28);
+}
+
+div#myOutputPlace {
+  margin-bottom: 5%;
+}
+
+div#tabs {
+  margin-top: 3%;
+}
+
+document {
+  border: inset;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+}
+
+.tab {
+  overflow: hidden;
+  border-bottom: 1px solid #ccc;
+  background-color: white;
+}
+
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 12px 14px;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+.tab button:hover {
+  background-color: #ddd;
+}
+
+.tab button#second.active{
+  border-bottom:2px solid #FF6347;
+}
+
+.tab button#third.active{
+  border-bottom:2px solid #008000;
+}
+
+.tab button#default.active {
+  border-bottom:2px solid blue;}
+
+.tablinks:focus {border-bottom:1.5px solid #ddd;}
+
+div#myOutputPlace {
+    text-align: center;
+}
+
+select#country {
+  margin-top: 3%;
+}
+
+body{
+  text-align: center;
+}
+
+div#myOutputPlace {
+  background-color: white;
+  color:rgb(51, 102, 204)
+}
+
+div#myOutputPlace2 {
+  background-color: white;
+  height: 50px;
+}
+
+select#country {
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  font-size: larger;
+}
+
+button#Run {
+  border: 2px solid rgb(162, 47, 28);
+  background-color: white; 
+  color: rgb(162,47,28);
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  font-size: larger
+}
+button#Summary {
+  border: 2px solid rgb(162, 47, 28);
+  background-color: white; 
+  color: rgb(162,47,28);
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  font-size: larger
+}
+
+button#WorldMap {
+  border: 2px solid rgb(162, 47, 28);
+  background-color: white; 
+  color: rgb(162,47,28);
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  font-size: larger
+  
+}
+
+button#CompleteList {
+  border: 2px solid rgb(162, 47, 28);
+  background-color: white; 
+  color: rgb(162,47,28);
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  font-size: larger
+}
+
+
+button#Run:hover{
+  color: white;
+  background-color:rgb(162,47,28);
+}
+
+
+button#Summary:hover{
+  color: white;
+  background-color:rgb(162,47,28);
+}
+
+
+button#WorldMap:hover{
+  color: white;
+  background-color:rgb(162,47,28);
+}
+
+button#CompleteList:hover{
+  color: white;
+  background-color:rgb(162,47,28);
+}
+
+p.c {
+  color: white;
+  background-color: white;
+  white-space: nowrap !important;
+}
+
+td.google-visualization-table-type-number.google-visualization-table-td {
+  text-align: center;
+}
+
+div#table_div {
+  padding-right: 8%;
+  padding-left: 8%;
+}
+
+div#barchart_2 {
+  margin-left: 25%;
+}
+div#barchart_1{
+  margin-left: 25%;
+}
+div#barchart_3{
+  margin-left: 25%;
+}
+
+body {font-family: Arial;}
+
+/* Style the tab */
+.tab {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+tr.google-visualization-table-tr-head {
+  background-color: rgb(162, 47, 28);
+}
+
+div#myOutputPlace {
+  margin-bottom: 5%;
+}
+
+div#tabs {
+  margin-top: 3%;
+}
+
+document {
+  border: inset;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+}
+
+.tab {
+  overflow: hidden;
+  border-bottom: 1px solid #ccc;
+  background-color: white;
+}
+
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 12px 14px;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+.tab button:hover {
+  background-color: #ddd;
+}
+
+.tab button#second.active{
+  border-bottom:2px solid #FF6347;
+}
+
+.tab button#third.active{
+  border-bottom:2px solid #008000;
+}
+
+.tab button#default.active {
+  border-bottom:2px solid blue;}
+
+.tablinks:focus {border-bottom:1.5px solid #ddd;}
+
+div#myOutputPlace {
+    text-align: center;
+}
+
+select#country {
+  margin-top: 3%;
+}
+
+body{
+  text-align: center;
+}
+
+div#myOutputPlace {
+  background-color: white;
+  color:rgb(51, 102, 204)
+}
+
+div#myOutputPlace2 {
+  background-color: white;
+  height: 50px;
+}
+
+select#country {
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  font-size: larger;
+}
+
+button#Run {
+  border: 2px solid rgb(162, 47, 28);
+  background-color: white; 
+  color: rgb(162,47,28);
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  font-size: larger
+}
+button#Summary {
+  border: 2px solid rgb(162, 47, 28);
+  background-color: white; 
+  color: rgb(162,47,28);
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  font-size: larger
+}
+
+button#WorldMap {
+  border: 2px solid rgb(162, 47, 28);
+  background-color: white; 
+  color: rgb(162,47,28);
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  font-size: larger
+  
+}
+
+button#CompleteList {
+  border: 2px solid rgb(162, 47, 28);
+  background-color: white; 
+  color: rgb(162,47,28);
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  font-size: larger
+}
+
+
+button#Run:hover{
+  color: white;
+  background-color:rgb(162,47,28);
+}
+
+
+button#Summary:hover{
+  color: white;
+  background-color:rgb(162,47,28);
+}
+
+
+button#WorldMap:hover{
+  color: white;
+  background-color:rgb(162,47,28);
+}
+
+button#CompleteList:hover{
+  color: white;
+  background-color:rgb(162,47,28);
+}
+
+p.c {
+  color: white;
+  background-color: white;
+  white-space: nowrap !important;
+}
+
+td.google-visualization-table-type-number.google-visualization-table-td {
+  text-align: center;
+}
+
+div#table_div {
+  padding-right: 8%;
+  padding-left: 8%;
+}
+
+div#barchart_2 {
+  margin-left: 25%;
+}
+div#barchart_1{
+  margin-left: 25%;
+}
+div#barchart_3{
+  margin-left: 25%;
+}
+
