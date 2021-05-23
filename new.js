@@ -154,7 +154,7 @@ async function Third() {
 
     var data = google.visualization.arrayToDataTable(overall);
     var options = {
-        colorAxis: { minValue: 0, maxValue: 1000000, colors: ["#E5D1E3", "#871F78"] },
+        colorAxis: { minValue: 0, maxValue: 20000000, colors: ["#E5D1E3", "#871F78"] },
     };
     var chart = new google.visualization.GeoChart(document.getElementById('regions_div2'));
 
