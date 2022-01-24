@@ -438,9 +438,8 @@ async function getConfirmed() {
             var wikiUrl = "https://en.wikipedia.org/wiki/COVID-19_pandemic_in_" + wiki;
         }
 
-
         var read = "this".link(wikiUrl)
-        var countryImage = " http://www.geognos.com/api/en/countries/flag/" + code + ".png";
+        var countryImage = "https://www.countryflags.io/" + code + "/flat/64.png";
         document.getElementById("image").src = countryImage;
 
         var chart = new google.visualization.LineChart(document.getElementById('curve_chart'));
