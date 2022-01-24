@@ -72,7 +72,7 @@ async function Third() {
     let maps = [["Country", "Number of Cases per million"]]
     let overall = [["Country", "Number of Cases"]]
     for (let i = 0; i < covid19.Countries.length; i++) {
-        var countryCode = await fetch("https://restcountries.eu/rest/v3.1/alpha/" + covid19.Countries[i].CountryCode);
+        var countryCode = await fetch("https://restcountries.com/rest/v3.1/alpha/" + covid19.Countries[i].CountryCode);
         var countryData = await countryCode.json();
         let pop = countryData.population;
         let name = countryData.name
@@ -396,7 +396,7 @@ async function getConfirmed() {
         totalCovidData = await fetch(url)
         covid19 = await totalCovidData.json();
         totalRecovered = covid19[covid19.length - 1].Cases
-        var countryCode = await fetch("https://restcountries.eu/rest/v3.1/name/" + country);
+        var countryCode = await fetch("https://restcountries.com/rest/v3.1/name/" + country);
         var countryData = await countryCode.json();
         var population;
         if (country == "India") {
