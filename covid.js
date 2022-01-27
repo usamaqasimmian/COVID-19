@@ -440,7 +440,7 @@ async function getConfirmed() {
 
 
         var read = "this".link(wikiUrl)
-        var countryImage = " http://www.geognos.com/api/en/countries/flag/" + code + ".png";
+        var countryImage = "https://flagcdn.com/160x120/" + (code.toLowerCase()) + ".png";
         document.getElementById("image").src = countryImage;
 
         var chart = new google.visualization.LineChart(document.getElementById('curve_chart'));
